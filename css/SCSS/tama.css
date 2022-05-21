@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(3, 1, 19);
+  color: rgb(228, 219, 196);
+  font-size: 18px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Ylä-tunniste {
+  grid-area: Ylä-tunniste;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: rgb(33, 33, 78);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(228, 219, 196);
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(228, 219, 196);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: rgb(33, 33, 78);
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: rgb(242, 244, 228);
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=tama.css.map */
