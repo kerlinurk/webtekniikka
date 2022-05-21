@@ -33,20 +33,19 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
-  }
   
-  .sidebar a {
-    display: block;
-    color: rgb(33, 33, 78);
-    padding: 16px;
-    text-decoration: none;
-  }
-   
-  .sidebar a:hover{
-    background-color: rgb(242, 244, 228);
+      a {
+        display: block;
+        color: rgb(33, 33, 78);
+        padding: 16px;
+        text-decoration: none;
+
+          a:hover{
+          background-color: rgb(242, 244, 228);
     
+    }
   }
-  
+}
   div.content {
     margin-left: 200px;
     padding: 1px 16px;
