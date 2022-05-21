@@ -3,18 +3,15 @@
 body {
     font-family: 'Poppins', sans-serif;
         background-color: lightblue;
-        color: darkblue;
+        color: rgb(228, 219, 196);
         font-size: 18px;
-      }
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background: url(sky.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 16px;
-    margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: url(sky.jpg);
+      background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 16px;
+        margin: 0;
     
 }
 .Ylä-tunniste { 
