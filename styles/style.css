@@ -42,13 +42,8 @@ body {
     text-decoration: none;
   }
    
-  .sidebar a.active {
-    background-color: #04AA6D;
-    color: rgb(159, 33, 33);
-  }
-  
   .sidebar a:hover{
-    background-color: rgb(19, 9, 50);
+    background-color: rgb(242, 244, 228);
     
   }
   
